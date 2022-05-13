@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_efefc1b645ae4835a60149a236c4a519 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_efefc1b645ae4835a60149a236c4a519" ></div>
+        
+</body>
+<script>    
+    
+            var map_efefc1b645ae4835a60149a236c4a519 = L.map(
+                "map_efefc1b645ae4835a60149a236c4a519",
+                {
+                    center: [47.7658030147505, -122.33888503272965],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 9,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_4d27e58339c243dd9ac0a51f5d5ea418 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_efefc1b645ae4835a60149a236c4a519);
+        
+    
+            var feature_group_a91eb6cc3fb0484fba06bb4dda07aa63 = L.featureGroup(
+                {}
+            ).addTo(map_efefc1b645ae4835a60149a236c4a519);
+        
+    
+            var circle_marker_6560c06dad3d4aa9b85ed4434f4b86de = L.circleMarker(
+                [47.7658030147505, -122.33888503272965],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a91eb6cc3fb0484fba06bb4dda07aa63);
+        
+    
+        var popup_be2c102fd4f242c69363ce84057da064 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_08615cfa2ddf4c00b1d9e11127cee8fb = $(`<div id="html_08615cfa2ddf4c00b1d9e11127cee8fb" style="width: 100.0%; height: 100.0%;">price:313000 rs</div>`)[0];
+            popup_be2c102fd4f242c69363ce84057da064.setContent(html_08615cfa2ddf4c00b1d9e11127cee8fb);
+        
+
+        circle_marker_6560c06dad3d4aa9b85ed4434f4b86de.bindPopup(popup_be2c102fd4f242c69363ce84057da064)
+        ;
+
+        
+    
+    
+            var circle_marker_c528f2b729a847ad96b77c8b3dfd1249 = L.circleMarker(
+                [47.63454098609952, -122.36691998428056],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a91eb6cc3fb0484fba06bb4dda07aa63);
+        
+    
+        var popup_47bf6026a4744dbfa8c46c15750238fc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_972bf11ac2cc4a128f4eb1cbc9cea723 = $(`<div id="html_972bf11ac2cc4a128f4eb1cbc9cea723" style="width: 100.0%; height: 100.0%;">price:2384000 rs</div>`)[0];
+            popup_47bf6026a4744dbfa8c46c15750238fc.setContent(html_972bf11ac2cc4a128f4eb1cbc9cea723);
+        
+
+        circle_marker_c528f2b729a847ad96b77c8b3dfd1249.bindPopup(popup_47bf6026a4744dbfa8c46c15750238fc)
+        ;
+
+        
+    
+    
+            var circle_marker_7b6721ae2b3a4d0ab33dd2d07ce545dc = L.circleMarker(
+                [47.36717197921462, -122.15051801975375],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a91eb6cc3fb0484fba06bb4dda07aa63);
+        
+    
+        var popup_cad249b9ee444d24a7a1eda31f599385 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3159e6bbe6d0487abe63873c6613d9fe = $(`<div id="html_3159e6bbe6d0487abe63873c6613d9fe" style="width: 100.0%; height: 100.0%;">price:342000 rs</div>`)[0];
+            popup_cad249b9ee444d24a7a1eda31f599385.setContent(html_3159e6bbe6d0487abe63873c6613d9fe);
+        
+
+        circle_marker_7b6721ae2b3a4d0ab33dd2d07ce545dc.bindPopup(popup_cad249b9ee444d24a7a1eda31f599385)
+        ;
+
+        
+    
+    
+            var circle_marker_6f171ef049db448f88b485fd9cf53d65 = L.circleMarker(
+                [47.61871599481381, -122.1138340337732],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a91eb6cc3fb0484fba06bb4dda07aa63);
+        
+    
+        var popup_9166d628aec9439786220651f8349d4d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_82cfef94d27e47b1b805ade45266692f = $(`<div id="html_82cfef94d27e47b1b805ade45266692f" style="width: 100.0%; height: 100.0%;">price:420000 rs</div>`)[0];
+            popup_9166d628aec9439786220651f8349d4d.setContent(html_82cfef94d27e47b1b805ade45266692f);
+        
+
+        circle_marker_6f171ef049db448f88b485fd9cf53d65.bindPopup(popup_9166d628aec9439786220651f8349d4d)
+        ;
+
+        
+    
+    
+            var circle_marker_0576a8c7344b4f95b97a9c8b71205215 = L.circleMarker(
+                [47.683054980674314, -122.11394501017125],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a91eb6cc3fb0484fba06bb4dda07aa63);
+        
+    
+        var popup_7b8967302a854c9ea9e327d83dd47d83 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_669b2852da204e65b3ae83826079483d = $(`<div id="html_669b2852da204e65b3ae83826079483d" style="width: 100.0%; height: 100.0%;">price:550000 rs</div>`)[0];
+            popup_7b8967302a854c9ea9e327d83dd47d83.setContent(html_669b2852da204e65b3ae83826079483d);
+        
+
+        circle_marker_0576a8c7344b4f95b97a9c8b71205215.bindPopup(popup_7b8967302a854c9ea9e327d83dd47d83)
+        ;
+
+        
+    
+    
+            var circle_marker_13bb2e10d14643c1b091a7677c131cd6 = L.circleMarker(
+                [47.69240298200975, -122.32206297215171],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a91eb6cc3fb0484fba06bb4dda07aa63);
+        
+    
+        var popup_1db4b60f234e4cb785e5f69f7f8515db = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6fd4f8ec697c482e8bb838f42b9e9e6f = $(`<div id="html_6fd4f8ec697c482e8bb838f42b9e9e6f" style="width: 100.0%; height: 100.0%;">price:490000 rs</div>`)[0];
+            popup_1db4b60f234e4cb785e5f69f7f8515db.setContent(html_6fd4f8ec697c482e8bb838f42b9e9e6f);
+        
+
+        circle_marker_13bb2e10d14643c1b091a7677c131cd6.bindPopup(popup_1db4b60f234e4cb785e5f69f7f8515db)
+        ;
+
+        
+    
+    
+            var circle_marker_b6abed47e3de4df8942cdb4fb50794d7 = L.circleMarker(
+                [47.634377999992296, -122.10738700912678],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a91eb6cc3fb0484fba06bb4dda07aa63);
+        
+    
+        var popup_f2191577faf5411185cb8801e7d0dad9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_74f91c5dc1cf48d5956b20ef0e0dacf9 = $(`<div id="html_74f91c5dc1cf48d5956b20ef0e0dacf9" style="width: 100.0%; height: 100.0%;">price:335000 rs</div>`)[0];
+            popup_f2191577faf5411185cb8801e7d0dad9.setContent(html_74f91c5dc1cf48d5956b20ef0e0dacf9);
+        
+
+        circle_marker_b6abed47e3de4df8942cdb4fb50794d7.bindPopup(popup_f2191577faf5411185cb8801e7d0dad9)
+        ;
+
+        
+    
+    
+            var circle_marker_6e964228e49f448eae1b3c708f4013e8 = L.circleMarker(
+                [47.37504199956314, -122.02199502942244],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a91eb6cc3fb0484fba06bb4dda07aa63);
+        
+    
+        var popup_a5a85fd740a84416b4c83e73da17679a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_516221bb2619464a8b3ac27aeed43536 = $(`<div id="html_516221bb2619464a8b3ac27aeed43536" style="width: 100.0%; height: 100.0%;">price:482000 rs</div>`)[0];
+            popup_a5a85fd740a84416b4c83e73da17679a.setContent(html_516221bb2619464a8b3ac27aeed43536);
+        
+
+        circle_marker_6e964228e49f448eae1b3c708f4013e8.bindPopup(popup_a5a85fd740a84416b4c83e73da17679a)
+        ;
+
+        
+    
+    
+            var circle_marker_35f06b95d9024025a4f9d042a9df059c = L.circleMarker(
+                [47.48171097947363, -121.71762197358423],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a91eb6cc3fb0484fba06bb4dda07aa63);
+        
+    
+        var popup_13579920a3ce4800a5669e4bcbe86d78 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8d08a5f5be5141e7a9b86f29b59549f9 = $(`<div id="html_8d08a5f5be5141e7a9b86f29b59549f9" style="width: 100.0%; height: 100.0%;">price:452500 rs</div>`)[0];
+            popup_13579920a3ce4800a5669e4bcbe86d78.setContent(html_8d08a5f5be5141e7a9b86f29b59549f9);
+        
+
+        circle_marker_35f06b95d9024025a4f9d042a9df059c.bindPopup(popup_13579920a3ce4800a5669e4bcbe86d78)
+        ;
+
+        
+    
+</script>
